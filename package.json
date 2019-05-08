@@ -1,7 +1,7 @@
 {
   "name": "yandex-translate-async",
   "version": "1.0.0",
-  "description": "Yandex translator SDK",
+  "description": "Async translation wrapper using Yandex.",
   "main": "dist/index.js",
   "babel": {
     "presets": [
@@ -34,7 +34,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/palanik/node-es6-starter.git"
+    "url": "https://github.com/myrtleTree33/yandex-translate-async"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org"
@@ -57,9 +57,10 @@
     "prettier": "^1.14.3"
   },
   "dependencies": {
+    "axios": "^0.18.0",
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "cheerio": "^1.0.0-rc.2",
-    "ky": "^0.10.0",
+    "got": "^9.6.0",
     "moment": "^2.22.2",
     "mongoose": "^5.2.9",
     "request": "^2.88.0",

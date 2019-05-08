@@ -1,6 +1,7 @@
+import YandexTranslate from './lib/YandexTranslate';
+
 export default function app() {
-  //begin writing your code here
-  console.log('hello world');
+  return { YandexTranslate };
 }
 
 if (require.main === module) {
