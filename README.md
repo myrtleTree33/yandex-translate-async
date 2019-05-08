@@ -4,13 +4,13 @@ Translate languages using the Yandex API.
 
 ## Installation
 
-1. Sign up for a Yandex API key at https://translate.yandex.com/developers/keys
+1.  Sign up for a Yandex API key at https://translate.yandex.com/developers/keys
 
-2. Install this package in your project:
+2.  Install this package in your project:
 
-   $ npm install --save yandex-translate-async
+        $ npm install --save yandex-translate-async
 
-3. Use it:
+3.  Use it:
 
 ```
 const yc = new YandexTranslate({
