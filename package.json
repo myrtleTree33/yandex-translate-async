@@ -1,6 +1,6 @@
 {
   "name": "yandex-translate-async",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Async translation wrapper using Yandex.",
   "main": "dist/index.js",
   "babel": {
@@ -21,7 +21,7 @@
   },
   "scripts": {
     "lint": "eslint src/**",
-    "build": "babel --presets es2015 src -d dist",
+    "build": "rm -rf dist; babel --presets es2015 src -d dist",
     "prepublish": "npm run build",
     "start": "node dist/",
     "dev": "./node_modules/.bin/babel-node src/",
@@ -39,7 +39,7 @@
   "publishConfig": {
     "registry": "https://registry.npmjs.org"
   },
-  "author": "N. Palani Kumanan",
+  "author": "Joel Haowen Tong",
   "license": "MIT",
   "devDependencies": {
     "babel-cli": "^6.26.0",
