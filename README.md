@@ -13,6 +13,8 @@ Translate languages using the Yandex API.
 3.  Use it:
 
 ```
+import YandexTranslate from 'yandex-translate-async';
+
 const yc = new YandexTranslate({
 	apiKey:
 	'<< YOUR YANDEX API KEY HERE >>'
